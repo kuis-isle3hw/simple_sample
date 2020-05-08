@@ -2,6 +2,12 @@
 
 [計算機科学実験及演習3(HW)](http://www.lab3.kuis.kyoto-u.ac.jp/~takase/le3a/)の仕様に準拠して記述されたサンプルプログラム集です．
 
+## InstructionTest
+
+SIMPLE仕様で規定されている命令のテストプログラム(txtおよびmifファイル)です．
+
+テスト対象の命令や期待される動作などの詳細は，各ディレクトリのreadme.txtを参照してください．
+
 ## BubbleSort
 ### BubbleSort.txt
 
@@ -20,10 +26,6 @@ BubbleSort.txtを[simple_simulator](https://github.com/kuis-isle3hw/simple_simul
 - [フィボナッチ数列](https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A3%E3%83%9C%E3%83%8A%E3%83%83%E3%83%81%E6%95%B0)をOUT命令で順に出力します．
 - IN命令で受け取れる値は1以上の整数です．
 - [simple_simulator](https://github.com/kuis-isle3hw/simple_simulator)に同梱されているsample.txtと同じものです．
-
-## ○○テスト
-
-simpleに用意されている命令のテストプログラム(txt)およびmifファイルです．各フォルダ内のreadme.txtを参照してください．
 
 ## 注意点など
 
