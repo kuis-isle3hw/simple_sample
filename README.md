@@ -21,6 +21,9 @@ BubbleSort.txtを[simple_simulator](https://github.com/kuis-isle3hw/simple_simul
 - IN命令で受け取れる値は1以上の整数です．
 - [simple_simulator](https://github.com/kuis-isle3hw/simple_simulator)に同梱されているsample.txtと同じものです．
 
+## ○○テスト
+
+simpleに用意されている命令のテストプログラム(txt)およびmifファイルです．各フォルダ内のreadme.txtを参照してください．
 
 ## 注意点など
 
@@ -29,6 +32,3 @@ BubbleSort.txtを[simple_simulator](https://github.com/kuis-isle3hw/simple_simul
   - この範囲内でbugなどあればぜひ [Issue](../../issues) で教えてください．
   - この範囲内で機能追加や改善があれば [Pull request](../../pulls) も歓迎します．
   - 課題でもある独自の改良や拡張については，対応しません．
-
-
-
