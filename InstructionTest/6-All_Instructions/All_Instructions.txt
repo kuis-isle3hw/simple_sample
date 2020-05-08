@@ -1,0 +1,121 @@
+LI 0 3
+LI 1 3
+LI 2 1
+LI 6 1
+B 2
+ST 6 0(7)
+HLT
+ST 7 0(7)
+CMP 1 0//Z
+BE 2
+ST 6 1(7)
+HLT
+ST 7 1(7)
+CMP 2 0//S
+BLT 2//BLT
+ST 6 2(7)
+HLT
+ST 7 2(7)
+CMP 1 0//Z
+BLE 2//Z
+ST 6 3(7)
+HLT
+ST 7 3(7)
+CMP 1 0//Z
+BNE 1//BNE
+B 2
+ST 6 4(7)
+HLT
+ST 7 4(7)
+LI 0 2
+LI 1 1
+LI 2 3
+LI 6 1
+ADD 0 1//[3,1,3]
+CMP 0 2
+BE 2
+ST 6 5(7)
+HLT
+ST 7 5(7)
+LI 2 2
+SUB 0 1 //[3,1,2]
+CMP 0 2
+BE 2
+ST 6 6(7)
+HLT
+ST 7 6(7)
+LI 0 5//[5,1,2]
+AND 0 1//[1,1,2]
+CMP 0 1
+BE 2
+ST 6 7(7)
+HLT
+ST 7 7(7)
+LI 0 5
+LI 1 6
+LI 2 7//[5,6,7]
+OR 0 1//[7,6,7]
+CMP 0 2
+BE 2
+ST 6 8(7)
+HLT
+ST 7 8(7)
+LI 0 5
+LI 1 1
+LI 2 4//[5,1,4]
+XOR 0 1//[4,1,4]
+CMP 0 2
+BE 2
+ST 6 9(7)
+HLT
+ST 7 9(7)
+LI 2 1//[4,1,1]
+MOV 0 1//[1,1,1]
+CMP 0 2
+BE 2
+ST 6 10(7)
+HLT
+ST 7 10(7)
+LI 2 2//[1,1,2]
+SLL 0 1//[2,1,2]
+CMP 0 2
+BE 2
+ST 6 11(7)
+HLT
+ST 7 11(7)
+LI 0 1
+LI 2 2//[1,1,2]
+SLR 0 1//[2,1,2]
+CMP 0 2
+BE 2
+ST 6 12(7)
+HLT
+ST 7 12(7)
+LI 0 1
+LI 2 0//[1,1,0]
+SRL 0 1//[0,1,0]
+CMP 0 2
+BE 2
+ST 6 13(7)
+HLT
+ST 7 13(7)
+LI 0 -2
+LI 2 -1//[-2,1,-1]
+SRA 0 1//[-1,1,-1]
+CMP 0 2
+BE 2
+ST 6 14(7)
+HLT
+ST 7 14(7)
+IN 3//[-1,1,-1,IN]
+ST 3 15(7)//IN
+OUT 3
+LI 2 5//[-1,1,5,IN]
+LD 0 120(7)//[5,1,5,IN]
+CMP 0 2
+BE 2
+ST 6 16(7)
+HLT
+ST 7 16(7)
+HLT
+5

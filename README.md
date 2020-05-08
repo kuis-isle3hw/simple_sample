@@ -2,6 +2,12 @@
 
 [計算機科学実験及演習3(HW)](http://www.lab3.kuis.kyoto-u.ac.jp/~takase/le3a/)の仕様に準拠して記述されたサンプルプログラム集です．
 
+## InstructionTest
+
+SIMPLE仕様で規定されている命令のテストプログラム(txtおよびmifファイル)です．
+
+テスト対象の命令や期待される動作などの詳細は，各ディレクトリのreadme.txtを参照してください．
+
 ## BubbleSort
 ### BubbleSort.txt
 
@@ -21,7 +27,6 @@ BubbleSort.txtを[simple_simulator](https://github.com/kuis-isle3hw/simple_simul
 - IN命令で受け取れる値は1以上の整数です．
 - [simple_simulator](https://github.com/kuis-isle3hw/simple_simulator)に同梱されているsample.txtと同じものです．
 
-
 ## 注意点など
 
 - [MIT License](LICENSE) です．この条項下で自由にご利用ください．また，本ツールの使用にあたって何か問題が起きても，スタッフは一切の責任を負いません．
@@ -29,6 +34,3 @@ BubbleSort.txtを[simple_simulator](https://github.com/kuis-isle3hw/simple_simul
   - この範囲内でbugなどあればぜひ [Issue](../../issues) で教えてください．
   - この範囲内で機能追加や改善があれば [Pull request](../../pulls) も歓迎します．
   - 課題でもある独自の改良や拡張については，対応しません．
-
-
-
