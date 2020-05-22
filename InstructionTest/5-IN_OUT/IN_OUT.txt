@@ -2,3 +2,4 @@ IN 0
 ST 0 0(7)//*(0)->IN
 OUT 0//output->IN
 HLT
+
