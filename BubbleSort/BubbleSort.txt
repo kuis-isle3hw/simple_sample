@@ -1,7 +1,8 @@
 LI 1, 1
-SLL 1, 10 
 LI 2, 2
-SLL 2, 10 
+SLL 2, 10
+SUB 2, 1
+SLL 1, 10 
 LI 3, 0     
 MOV 4, 1
 LD 5, 0(4) 
@@ -33,7 +34,6 @@ ADD 4, 6
 CMP 4, 2
 BLE -6    
 HLT
-0
 0
 0
 0
